@@ -1,0 +1,170 @@
+.home-banner{
+    display: flex;
+    flex-direction: row;
+    height: 120px; 
+    max-width: 100%;
+    
+    background: rgb(251,227,187);
+    background: linear-gradient(0deg, rgba(251,227,187,1) 0%, rgba(214,191,145,1) 100%);       
+}
+
+.logo{
+    height: 130px;
+    width: 130px;
+    margin: 15px 15px 15px -5px;
+}
+
+.img-border{
+    border: 5px solid #847059;
+    border-radius: 80px;
+}
+
+.nav-itens{
+    width: 50%;
+    height: 120px;    
+}
+
+.nav-itens__spacing{
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.nav-itens-formart{
+    color: #1f2322;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 3px
+}
+
+.nav-itens-formart:hover{
+    text-decoration: none;
+    border-bottom:3px solid #847059;
+    color: #1f2322;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 3px    
+}
+
+.format-border{
+    background-color:rgb(251,227,187) ;
+    width: 100%;
+}
+
+.mainbg{
+    background-color: white;
+    height: 500px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;    
+}
+
+.inputcontainer{
+    margin-top: 50px;
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    place-content: space-around;
+    width: 80%;    
+}
+
+.textinput{    
+    width: 270px;
+    margin: 10px;
+}
+
+.bg-img{
+    position: fixed;
+    left: 27%;
+    right: 27%;
+    width: 45%;
+    top: 24%;
+}
+
+.text-box{
+    width: 255px;
+}
+
+.button-space{
+    display: flex;
+    flex-direction: column;
+}
+.btnCadastrar{
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 35px;
+    width: 148px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #847059;
+    border: 1px solid rgb(116, 68, 64);
+    border-radius: 4px;
+    color: white;    
+}
+
+.btnCadastrar:hover, .btnCadastrar:focus, .btnCadastrar:active, .btnCadastrar:focus-within, .btnCadastrar:visited{
+    background-color: rgb(36, 139, 115);
+    border-color: rgb(116, 68, 64);
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+
+    background: rgb(251,227,187);
+    background: linear-gradient(180deg, rgba(251,227,187,1) 0%, rgba(214,191,145,1) 40%);
+}
+
+.footer-logo{
+    width: 45px;
+    height: 35px;
+    justify-self: center;
+    align-content: center ;
+}
+
+.footer-text{
+    font-size: 12px;
+}
+
+.subtitle{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.FormatTable{
+    border: 1px solid black;    
+    width: -webkit-fill-available;
+    text-align: center;
+}
+
+.format-report{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+.format-report div{
+    width: 160px;
+}
+
+.format-report div img{  
+    height: 200px;    
+    margin-bottom: 15px;
+}
+
+.format-report div a{
+    width: 160px;
+    height: 160px;  
+}
+

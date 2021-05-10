@@ -1,0 +1,38 @@
+.container-login {
+    max-width: 30%;
+}
+
+.well{
+    margin-top: 30px;
+    background-color:rgb(251, 227, 187);
+    border-radius: 20px;
+}
+
+.img-border-index{
+    border: 5px solid #847059;
+    border-radius: 500px;
+}
+
+.input-width {
+    width: 80%;
+}
+
+.input-spacing {
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.input-spacing__btn {
+    margin-top: 20px;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn:focus-within, .btn:visited{
+    background-color: rgb(36, 139, 115);
+    border-color: rgb(116, 68, 64);
+    color: white;
+}
+
+.bnt-format{
+    background-color: #847059;
+    color: white;    
+}
